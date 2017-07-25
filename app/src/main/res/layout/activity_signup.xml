@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:id="@+id/tagtext"
+            android:text="Go Fresh , Go Pure, Go Healthy"
+            android:textColor="#414142" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/tagtext"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv91"
+            android:layout_width="45dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="35dp"
+            android:background="#414142"
+            android:gravity="center"
+            android:text="+91"
+            android:textColor="#fff"
+            android:textSize="19dp" />
+
+
+        <EditText
+            android:id="@+id/input_contact"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/tv91"
+            android:layout_marginLeft="65dp"
+            android:background="@drawable/text_border"
+            android:hint="Contact Number"
+            android:inputType="number"
+            android:paddingLeft="10dp" />
+
+
+        <EditText
+            android:id="@+id/input_firstname"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_alignStart="@+id/tv91"
+            android:layout_below="@+id/tv91"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/text_border"
+            android:drawableStart="@drawable/ic_person_black_24dp"
+            android:hint="  First Name"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp" />
+
+
+        <EditText
+            android:id="@+id/input_password"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:layout_alignStart="@+id/tv91"
+            android:layout_below="@+id/input_firstname"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/text_border"
+            android:drawableStart="@drawable/ic_lock_black_24dp"
+            android:hint=" Password"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:paddingLeft="10dp" />
+
+
+        <EditText
+            android:id="@+id/input_shopname"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:layout_alignStart="@+id/tv91"
+            android:layout_below="@+id/input_password"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/text_border"
+            android:drawableStart="@drawable/ic_store_black_24dp"
+            android:hint=" Shop Name"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp" />
+
+
+        <EditText
+            android:id="@+id/input_shopnumber"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:layout_alignStart="@+id/tv91"
+            android:layout_below="@+id/input_shopname"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/text_border"
+            android:drawableStart="@drawable/ic_store_black_24dp"
+            android:hint=" Shop/Retail Number"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp" />
+
+
+        <Spinner
+            android:id="@+id/spinner_state"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/input_shopnumber"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/text_border" />
+
+        <Spinner
+            android:id="@+id/spinner_distric"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/input_shopnumber"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/spinner_state"
+            android:background="@drawable/text_border" />
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner_distric"
+            android:text="User already Registered"
+            android:textColor="#ff0000"
+            android:textSize="16dp"
+            android:typeface="serif"
+            android:visibility="invisible" />
+
+
+            <Button
+                android:id="@+id/signupbutton"
+                android:layout_width="225dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/roundedbutton"
+                android:text="Signup"
+                android:textColor="#fff" />
+    </RelativeLayout>
+        </ScrollView>
+
+
+    </RelativeLayout>

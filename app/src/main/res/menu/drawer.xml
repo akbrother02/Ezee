@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_item_1"
+            android:icon="@drawable/ic_store_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/navigation_item_2"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/navigation_item_3"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Product Listing" />
+        <item
+            android:id="@+id/navigation_item_4"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Order" />
+        <item
+        android:id="@+id/navigation_item_5"
+        android:icon="@drawable/ic_confirmation_number_black_24dp"
+        android:title="Knowledge Board" />
+
+    </group>
+    </menu>

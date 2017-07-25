@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Ezee</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="please_enter_your_device_code_that_you">Please enter code that you have got on your phone number!!</string>
+    <string name="title_home">Home</string>
+    <string name="title_bookmarks">Bookmarks</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="title_payment">Payment</string>
+    <string name="title_settings">Settings</string>
+    <string name="enter_otp">Enter One Time Password(OTP)</string>
+    <string name="title_name">Hi User</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_spinner_item">ANDAMAN AND NICOBAR ISLANDS</string>
+    <string name="Rupee">Rs.</string>
+</resources>

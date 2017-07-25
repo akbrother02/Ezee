@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+
+        tools:ignore="Overdraw">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_marginTop="22dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="@string/enter_otp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:text="@string/please_enter_your_device_code_that_you"/>
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:padding="1dp">
+            <EditText
+                android:id="@+id/etOtp"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:inputType="text"
+                android:imeOptions="actionDone"
+                android:maxLength="6"
+                android:ellipsize="start"
+                android:layout_gravity="center_horizontal"
+                android:hint="OTP"
+                android:background="@drawable/text_border"
+                android:textColor="#0E2548"
+                android:padding="10dp"
+                />
+
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btSubmit"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="submit"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:background="@drawable/roundedbutton"
+            android:textColor="#fff"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+</ScrollView>
